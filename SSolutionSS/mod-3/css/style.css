@@ -1,0 +1,127 @@
+body {
+    font-size:3.7vw;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#c8c86c;
+    padding-top: 70px;
+}
+div{
+    text-align: center ;
+}
+
+/**header**/
+
+
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+#header-nav, .navbar-header, .container, .navbar, .navbar-default, .navbar-fixed-top{
+    height: 73px;
+    width: 100%;
+    background-color: rgba(68, 153, 84, 0.918);
+    border: none;
+    border-radius: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-brand{
+    clear: right;
+}
+
+.navbar-brand a{
+    font-family:'oxigen', Courier, monospace;
+    color: black;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 5vw;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-toggle{
+    margin: 20px 0 20px 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    background-color: #98b45f;
+    border:1px solid #3e3721;
+}
+
+#navbar-collapse-1,.navbar-collapse{
+    background-color: hsla(21, 69%, 21%, 0.973);
+    border: none;
+    margin: 0;
+    width: 100%;
+}
+
+#navbar-collapse-1 ul{
+    margin: 0;
+}
+
+#navbar-collapse-1 ul li{
+    border-bottom: 1px solid black; 
+}
+#navbar-collapse-1 ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c9c9c9;
+}
+#navbar-collapse-1 ul li a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+/*   --main content--   */
+
+.page-header{
+    border: none;
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    font-size: 1.6em;
+    margin: 10px 5px;
+    padding: 5px;
+}
+h2{
+    font-family: 'Segoe UI, Tahoma, Geneva, Verdana';
+    font-size: 1.3em;
+    margin: 20px 5px;
+}
+
+#chicken{
+    background-color:#949438;
+    border: .5px solid rgb(21, 36, 13);
+    margin: 0 17px 20px 17px;
+    padding-right:15px;
+    padding-left: 15px;
+}
+
+#chicken section{
+    display: grid;
+}
+
+#chicken p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+
+
+
+/*  --media queries--  */
+
+@media (max-width: 767px) {
+    .navbar-brand a{
+     font-size:6vw;
+    }
+}
